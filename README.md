@@ -30,5 +30,4 @@ I created three of the libraries used in this project:
 [`react-kuh`](https://www.npmjs.com/package/react-kuh): TypeScript-ready React (kinda) useful hooks
 [`next-api-validation`](https://www.npmjs.com/package/next-api-validation): Validate HTTP requests inside Next.js API endpoints
 
-
 [Live preview](https://nextjs-typescript-and-mongodb-psi.vercel.app)

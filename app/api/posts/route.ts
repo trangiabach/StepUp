@@ -6,7 +6,8 @@ export async function GET() {
   try {
     const posts = await prisma.post.findMany()
     return NextResponse.json(posts.reverse())
-  } catch {
+  } catch (error) {
+    console.log(error)
     return NextResponse.json('error', {
       status: 500
     })
@@ -20,7 +21,8 @@ export async function POST(req: Request) {
       data: body
     })
     return NextResponse.json(newPost)
-  } catch {
+  } catch (error) {
+    console.log(error)
     return NextResponse.json('error', {
       status: 500
     })

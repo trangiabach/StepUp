@@ -1,15 +1,63 @@
 datasource db {
-    provider = "mongodb"
-    url      = env("MONGO_URI")
+  provider = "mongodb"
+  url      = env("MONGO_URI")
 }
 
 generator client {
-    provider = "prisma-client-js"
+  provider = "prisma-client-js"
 }
 
 model Post {
-    id      String   @id @default(auto()) @map("_id") @db.ObjectId
-    title   String
-    date    DateTime
-    content String
+  id      String   @id @default(auto()) @map("_id") @db.ObjectId
+  title   String
+  date    DateTime
+  content String
+}
+
+type MetricObject {
+  rating       String?
+  description  String?
+}
+
+type Metric {
+  traceablity       MetricObject?
+  ethics            MetricObject?
+  circularity       MetricObject?
+  locality          MetricObject?
+  rawMaterials      MetricObject?
+  energyEfficiency  MetricObject?
+  waste             MetricObject?
+  greenInitivatives MetricObject?
+}
+
+enum Scale {
+  Local
+  Regional
+  Global
+  Unrated
+}
+
+type Coordinate {
+  latitude    Decimal?
+  longitude   Decimal?
+}
+
+model Place {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  title       String
+  shortDescription  String
+  description String
+  type        String
+  tags        String[]    @default([])
+  location    String
+  metrics     MetricObject[]
+  rating      String      @default("Unrated")
+  accessLink  String      @default("Unavailable")
+  priceRange  String      @default("0")
+  scale       String?     @default("Unrated")
+  badges      String[]    @default([])
+  hours       String[]    @default([])
+  date        DateTime    @default(now())
+  coordinate  Coordinate?
+  thumbnailUrl  String?
 }

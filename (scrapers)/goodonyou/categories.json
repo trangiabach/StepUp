@@ -1,0 +1,1148 @@
+{
+  "result": {
+    "picks": [
+      {
+        "id": "dorsu",
+        "name": "Dorsu",
+        "slug": "dorsu",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/41/1589815630696.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 2
+      },
+      {
+        "id": "afends",
+        "name": "Afends",
+        "slug": "afends",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/71/1597199357959.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "sans-beast",
+        "name": "Sans Beast",
+        "slug": "sans-beast",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2023/41/1683547339183.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "kotn",
+        "name": "Kotn",
+        "slug": "kotn",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/9a88fda3f3cc5dba8897fbeccece0a9da1529e58.png",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "birdsong",
+        "name": "Birdsong",
+        "slug": "birdsong",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2019/61/1564561470585.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "fair-indigo",
+        "name": "Fair Indigo",
+        "slug": "fair-indigo",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/2a5ec5e886f619b43a87037f2fa03d075b4a7d27.png",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 2
+      },
+      {
+        "id": "noah",
+        "name": "NOAH",
+        "slug": "noah",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2021/41/1621371116745.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "conscious-step",
+        "name": "Conscious Step",
+        "slug": "conscious-step",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/37a8f973fbc509e006ef5db503d9f5d515692a46.png",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "able",
+        "name": "ABLE",
+        "slug": "able",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2021/51/1622826105453.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "knickey",
+        "name": "Knickey",
+        "slug": "knickey",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2021/51/1622811140621.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 3
+      },
+      {
+        "id": "isto",
+        "name": "ISTO.",
+        "slug": "isto",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/e928ad50285ebff756ece02a8af6a5b635dd0a0c.jpg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "wama",
+        "name": "WAMA",
+        "slug": "wama",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/01/1642935969767.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "organic-basics",
+        "name": "Organic Basics",
+        "slug": "organic-basics",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/11/1645354869501.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 3
+      },
+      {
+        "id": "wills-vegan-store",
+        "name": "Will's Vegan Store",
+        "slug": "wills-vegan-store",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/81/1662378395691.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "veerah",
+        "name": "VEERAH",
+        "slug": "veerah",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/11/1645959849630.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "article-22",
+        "name": "ARTICLE22",
+        "slug": "article22",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2021/51/1623583334960.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "colieco",
+        "name": "ColieCo",
+        "slug": "colieco",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/566e93356f559d2ea9558db3f140bbae056c97b3.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "plant-faced",
+        "name": "Plant Faced Clothing",
+        "slug": "plant-faced-clothing",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2018/31/1522680024122.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 1
+      },
+      {
+        "id": "elle-evans",
+        "name": "Elle Evans",
+        "slug": "elle-evans",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/31/1586017616744.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "mother-of-pearl",
+        "name": "Mother of Pearl",
+        "slug": "mother-of-pearl",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/796210a8edb83e98ef58f13ba35c71eaec262e30.png",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "girlfriend-collective",
+        "name": "Girlfriend Collective",
+        "slug": "girlfriend-collective",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/41/1589224243076.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "ettitude",
+        "name": "ettitude",
+        "slug": "ettitude",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/11/1644127921954.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "melissa-joy-manning",
+        "name": "Melissa Joy Manning",
+        "slug": "melissa-joy-manning",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/81/1600899892240.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 4
+      },
+      {
+        "id": "kings-of-indigo",
+        "name": "Kings of Indigo",
+        "slug": "kings-of-indigo",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/brands/cover/2020/07/King-of-Indigo-Cover.jpg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "yes-friends",
+        "name": "Yes Friends",
+        "slug": "yes-friends",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2021/31/1617709116733.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 1
+      },
+      {
+        "id": "the-r-collective",
+        "name": "The R Collective",
+        "slug": "the-r-collective",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/01/1643487927815.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 2
+      },
+      {
+        "id": "mate-the-label",
+        "name": "MATE the Label",
+        "slug": "mate-the-label",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/91/1664712399942.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "futura",
+        "name": "FUTURA Jewelry",
+        "slug": "futura-jewelry",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/21/1648382183846.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 4
+      },
+      {
+        "id": "zerobarracento",
+        "name": "ZEROBARRACENTO",
+        "slug": "zerobarracento",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2021/31/1618582144163.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "yes-and",
+        "name": "Yes And",
+        "slug": "yes-and",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/81/1599140663313.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "unspun",
+        "name": "unspun",
+        "slug": "unspun",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/51/1656246564376.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 3
+      },
+      {
+        "id": "dawn-denim",
+        "name": "DAWN Denim",
+        "slug": "dawn-denim",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/111/1608848303696.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 2
+      },
+      {
+        "id": "happy-earth-apparel",
+        "name": "Happy Earth Apparel",
+        "slug": "happy-earth-apparel",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/9915344082188acb28a9bc8fb0a14a7853465a7c.png",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 1
+      },
+      {
+        "id": "franc",
+        "name": "FRANC",
+        "slug": "franc",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/101/1605283880692.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "neu-nomads",
+        "name": "Neu Nomads",
+        "slug": "neu-nomads",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/31/1648991945882.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 3
+      },
+      {
+        "id": "good-guys",
+        "name": "Good Guys",
+        "slug": "good-guys",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2021/01/1611925482425.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "dressarte-paris",
+        "name": "Dressarte Paris",
+        "slug": "dressarte-paris",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/f8ad2c82fdf49a888a5ff3eec875dee4e2722085.png",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "malaika-new-york",
+        "name": "Malaika New York",
+        "slug": "malaika-new-york",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2021/51/1624662387702.png",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "tasi-travels",
+        "name": "Tasi Travels",
+        "slug": "tasi-travels",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2019/41/1557314274533.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "jyoti-fair-works",
+        "name": "Jyoti - Fair Works",
+        "slug": "jyoti-fair-works",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2021/61/1627683639531.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "dk-active",
+        "name": "dk active",
+        "slug": "dk-active",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/11/1645354790454.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 3
+      },
+      {
+        "id": "jan-n-june",
+        "name": "JAN ‘N JUNE",
+        "slug": "jan-n-june",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/9b7b6213d32e53bee7ec0e497dcbf5d009a0fdf0.png",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "nativ-basics",
+        "name": "nat’v basics",
+        "slug": "natv-basics",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/01/1642332820343.png",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "saint-basics",
+        "name": "Saint Basics",
+        "slug": "saint-basics",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/35d50384aaeb4b37e9420bc9a378f6d779d14d97.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "bario-neal",
+        "name": "Bario Neal",
+        "slug": "bario-neal",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2018/71/1535006049775.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 4
+      },
+      {
+        "id": "tamga-designs",
+        "name": "TAMGA Designs",
+        "slug": "tamga-designs",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/brands/cover/2019/04/Tamga_Cover.jpg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 4
+      },
+      {
+        "id": "o-my-bag",
+        "name": "O My Bag",
+        "slug": "o-my-bag",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/31/1648992247243.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "nikin",
+        "name": "NIKIN",
+        "slug": "nikin",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/41/1589223104279.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "cossac",
+        "name": "COSSAC",
+        "slug": "cossac",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/8100cc1fbf3f6ba9b3e91487ad29486c930bd8f9.png",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "loop-swim",
+        "name": "Loop Swim",
+        "slug": "loop-swim",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/101/1605813512364.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "thela",
+        "name": "Théla",
+        "slug": "thela",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2021/31/1618582057899.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 2
+      },
+      {
+        "id": "bhumi",
+        "name": "Bhumi",
+        "slug": "bhumi",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/1afefca60c710d11553c142597eb88c51fe51ace.png",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "frugi",
+        "name": "Frugi",
+        "slug": "frugi",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/41/1589224374429.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "opera-campi",
+        "name": "Opera Campi",
+        "slug": "opera-campi",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/101/1605812864883.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "honest-basics",
+        "name": "Honest Basics",
+        "slug": "honest-basics",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/61/1595265879354.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 1
+      },
+      {
+        "id": "kent",
+        "name": "KENT",
+        "slug": "kent",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/101/1605812646165.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "sorella-organics",
+        "name": "Sorella Organics",
+        "slug": "sorella-organics",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/71/1597862417614.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "woron",
+        "name": "Woron",
+        "slug": "woron",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/21/1647563724411.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "the-ethical-silk-company",
+        "name": "The Ethical Silk Company",
+        "slug": "the-ethical-silk-company",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2018/81/1536635091876.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "la-fille-do",
+        "name": "la fille d'O",
+        "slug": "la-fille-do",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2018/61/1532069781321.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "nube",
+        "name": "Nube",
+        "slug": "nube",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/11/1581986951219.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 2
+      },
+      {
+        "id": "armedangels",
+        "name": "ARMEDANGELS",
+        "slug": "armedangels",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/11/1644127581988.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 2
+      },
+      {
+        "id": "mud-jeans",
+        "name": "MUD Jeans",
+        "slug": "mud-jeans",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/21/1584564086454.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 2
+      },
+      {
+        "id": "the-very-good-bra",
+        "name": "The Very Good Bra",
+        "slug": "the-very-good-bra",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/111/1608848444122.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "toad-and-co",
+        "name": "Toad&Co",
+        "slug": "toad-and-co",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/81/1662378341601.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "the-classic-t-shirt-co",
+        "name": "The Classic T-Shirt Company",
+        "slug": "the-classic-t-shirt-company",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/brands/cover/2020/07/TCTC-Cover.jpg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "wawwa",
+        "name": "WAWWA",
+        "slug": "wawwa",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2023/31/1680748745641.png",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "cariuma",
+        "name": "CARIUMA",
+        "slug": "cariuma",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/61/1658061506413.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "swedish-stockings",
+        "name": "Swedish Stockings",
+        "slug": "swedish-stockings",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/efad9fc124833ef9bb755f3b81b1d6ffeb1db2fe.png",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "noctu",
+        "name": "Noctu",
+        "slug": "noctu",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/41/1589224320877.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 3
+      },
+      {
+        "id": "underprotection",
+        "name": "Underprotection",
+        "slug": "underprotection",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/d3eb7a6c34457545f95457973c1dfab58b5577ac.jpg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "all-the-wild-roses",
+        "name": "All The Wild Roses",
+        "slug": "all-the-wild-roses",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/brands/logo/2020/10/ATWR-Cover.jpg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "wuxly-movement",
+        "name": "Wuxly Movement",
+        "slug": "wuxly-movement",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2023/21/1678904196341.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "christy-dawn",
+        "name": "Christy Dawn",
+        "slug": "christy-dawn",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2018/81/1536627142649.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 3
+      },
+      {
+        "id": "hyer-goods",
+        "name": "HYER GOODS",
+        "slug": "hyer-goods",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/11/1644127791580.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "womsh",
+        "name": "Womsh",
+        "slug": "womsh",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/91/1664712343059.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 4
+      },
+      {
+        "id": "infantium-victoria",
+        "name": "Infantium Victoria",
+        "slug": "infantium-victoria",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2021/41/1621024676013.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 4
+      },
+      {
+        "id": "milavert",
+        "name": "Mila.Vert",
+        "slug": "milavert",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2021/41/1621371197350.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 3
+      },
+      {
+        "id": "asket",
+        "name": "ASKET",
+        "slug": "asket",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/914a06d943518d7f099281315f46a222813342bc.png",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "naz",
+        "name": "Näz",
+        "slug": "naz",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2021/61/1627213551387.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "finisterre",
+        "name": "Finisterre",
+        "slug": "finisterre",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/91/1601593734005.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "ohsevendays",
+        "name": "OhSevenDays",
+        "slug": "ohsevendays",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/bfa082bfb509b65ab6ea3ac4183ba3fc6915b67b.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "kampos",
+        "name": "Kampos",
+        "slug": "kampos",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/01/1643488328521.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "colorful-standard",
+        "name": "Colorful Standard",
+        "slug": "colorful-standard",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/11/1645959837770.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "tentree",
+        "name": "tentree",
+        "slug": "tentree",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2021/91/1635680118389.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "proclaim",
+        "name": "Proclaim",
+        "slug": "proclaim",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2019/31/1556642538127.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 3
+      },
+      {
+        "id": "thokkthokk",
+        "name": "ThokkThokk",
+        "slug": "thokkthokk",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/41/1589224404401.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "mara-hoffman",
+        "name": "Mara Hoffman",
+        "slug": "mara-hoffman",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2019/51/1561594632377.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 3
+      },
+      {
+        "id": "dedicated",
+        "name": "Dedicated",
+        "slug": "dedicated",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/6bf8edf83f1e0f1b137b2193656c1143d9d9e727.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 2
+      },
+      {
+        "id": "little-emperor",
+        "name": "Little Emperor",
+        "slug": "little-emperor",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/brands/cover/2020/09/little-emp.jpg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 1
+      },
+      {
+        "id": "triarchy",
+        "name": "Triarchy",
+        "slug": "triarchy",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2019/101/1572752041556.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 4
+      },
+      {
+        "id": "outland-denim",
+        "name": "Outland Denim",
+        "slug": "outland-denim",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/a77582439864cf2323bd001207986b02b66a1f1c.png",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 2
+      },
+      {
+        "id": "flamingos-life",
+        "name": "Flamingos' Life",
+        "slug": "flamingos-life",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/ba4ec194cb3cb68edfcf4668cc81ab399a4744e0.png",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "lanius",
+        "name": "LANIUS",
+        "slug": "lanius",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/37388c92493a367f6539143172ca881eacee1f5c.png",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "bastet-noir",
+        "name": "BASTET NOIR",
+        "slug": "bastet-noir",
+        "image": "https://d1z6fpwqg9rey0.cloudfront.net/media/images/brands/38b54ea579ddcabf2d3b89cd06508fe86b06f6c0.png",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "citizen-wolf",
+        "name": "Citizen Wolf",
+        "slug": "citizen-wolf",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2022/41/1652618131031.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 2
+      },
+      {
+        "id": "baukjen",
+        "name": "Baukjen",
+        "slug": "baukjen",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2021/81/1631801644779.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      },
+      {
+        "id": "harvest-and-mill",
+        "name": "Harvest & Mill",
+        "slug": "harvest-and-mill",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/61/1595954438304.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 3
+      },
+      {
+        "id": "abch",
+        "name": "A.BCH",
+        "slug": "abch",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2021/31/1618612232924.jpeg",
+        "ethical_label": "Great",
+        "ethical_rating": 5,
+        "price": 2
+      },
+      {
+        "id": "casagin",
+        "name": "CasaGIN",
+        "slug": "casagin",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/ed/brands/image/2020/71/1597254040175.jpeg",
+        "ethical_label": "Good",
+        "ethical_rating": 4,
+        "price": 2
+      }
+    ],
+    "categories": [
+      {
+        "id": "shoes",
+        "name": "Shoes",
+        "slug": "shoes",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/app/categories/cat_shoes_1000.jpg",
+        "gender": ["all"],
+        "order": 14,
+        "qty": 520,
+        "total": {
+          "all": 686,
+          "kids": 225,
+          "men": 408,
+          "women": 603
+        }
+      },
+      {
+        "id": "basics",
+        "name": "Basics & Intimates",
+        "slug": "basics-and-intimates",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/app/categories/cat_basics_and_intimates_1000.jpg",
+        "gender": ["all"],
+        "order": 9,
+        "qty": 735,
+        "total": {
+          "all": 837,
+          "kids": 256,
+          "men": 405,
+          "women": 722
+        }
+      },
+      {
+        "id": "dresses",
+        "name": "Dresses & Playsuits",
+        "slug": "dresses-and-playsuits",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/app/categories/cat_dresses_playsuits_1000.jpg",
+        "gender": ["women", "children"],
+        "order": 5,
+        "qty": 762,
+        "total": {
+          "all": 1239,
+          "kids": 0,
+          "men": 0,
+          "women": 1135
+        }
+      },
+      {
+        "id": "sleepwear",
+        "name": "Sleepwear",
+        "slug": "sleepwear",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/app/categories/cat_sleepwear_1000.jpg",
+        "gender": ["all"],
+        "order": 10,
+        "qty": 148,
+        "total": {
+          "all": 175,
+          "kids": 79,
+          "men": 69,
+          "women": 138
+        }
+      },
+      {
+        "id": "bottoms",
+        "name": "Bottoms",
+        "slug": "bottoms",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/app/categories/cat_bottoms_1000.jpg",
+        "gender": ["all"],
+        "order": 3,
+        "qty": 967,
+        "total": {
+          "all": 1535,
+          "kids": 382,
+          "men": 738,
+          "women": 1338
+        }
+      },
+      {
+        "id": "knitwear",
+        "name": "Sweaters & Knitwear",
+        "slug": "sweaters-and-knitwear",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/app/categories/cat_sweaters_knitwear_1000.jpg",
+        "gender": ["all"],
+        "order": 6,
+        "qty": 813,
+        "total": {
+          "all": 1203,
+          "kids": 332,
+          "men": 657,
+          "women": 1039
+        }
+      },
+      {
+        "id": "suits",
+        "name": "Suits",
+        "slug": "suits",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/app/categories/cat_suit_1000.jpg",
+        "gender": ["men", "women"],
+        "order": 8,
+        "qty": 123,
+        "total": {
+          "all": 150,
+          "kids": 0,
+          "men": 100,
+          "women": 109
+        }
+      },
+      {
+        "id": "bags",
+        "name": "Bags",
+        "slug": "bags",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/app/categories/cat_bags_1000.jpg",
+        "gender": ["all"],
+        "order": 15,
+        "qty": 450,
+        "total": {
+          "all": 563,
+          "kids": 154,
+          "men": 309,
+          "women": 514
+        }
+      },
+      {
+        "id": "activewear",
+        "name": "Activewear",
+        "slug": "activewear",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/app/categories/cat_activewear_1000.jpg",
+        "gender": ["all"],
+        "order": 1,
+        "qty": 192,
+        "total": {
+          "all": 258,
+          "kids": 92,
+          "men": 150,
+          "women": 233
+        }
+      },
+      {
+        "id": "swimwear",
+        "name": "Swimwear",
+        "slug": "swimwear",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/app/categories/cat_swimwear_1000.jpg",
+        "gender": ["all"],
+        "order": 11,
+        "qty": 332,
+        "total": {
+          "all": 416,
+          "kids": 136,
+          "men": 168,
+          "women": 379
+        }
+      },
+      {
+        "id": "accessories",
+        "name": "Accessories",
+        "slug": "accessories",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/app/categories/cat_accessories_1000.jpg",
+        "gender": ["all"],
+        "order": 16,
+        "qty": 750,
+        "total": {
+          "all": 1191,
+          "kids": 278,
+          "men": 607,
+          "women": 1061
+        }
+      },
+      {
+        "id": "tops",
+        "name": "Tops",
+        "slug": "tops",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/app/categories/cat_tops_1000.jpg",
+        "gender": ["all"],
+        "order": 2,
+        "qty": 1155,
+        "total": {
+          "all": 1905,
+          "kids": 468,
+          "men": 915,
+          "women": 1660
+        }
+      },
+      {
+        "id": "maternity",
+        "name": "Maternity",
+        "slug": "maternity",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/app/categories/cat_maternity_1000.jpg",
+        "gender": ["women"],
+        "order": 12,
+        "qty": 44,
+        "total": {
+          "all": 64,
+          "kids": 0,
+          "men": 0,
+          "women": 61
+        }
+      },
+      {
+        "id": "denim",
+        "name": "Denim",
+        "slug": "denim",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/app/categories/cat_denim_1000.jpg",
+        "gender": ["all"],
+        "order": 4,
+        "qty": 522,
+        "total": {
+          "all": 642,
+          "kids": 158,
+          "men": 334,
+          "women": 545
+        }
+      },
+      {
+        "id": "outerwear",
+        "name": "Outerwear",
+        "slug": "outerwear",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/app/categories/cat_outwear_1000.jpg",
+        "gender": ["all"],
+        "order": 7,
+        "qty": 809,
+        "total": {
+          "all": 1177,
+          "kids": 294,
+          "men": 606,
+          "women": 1014
+        }
+      },
+      {
+        "id": "plus-size",
+        "name": "Plus Size",
+        "slug": "plus-size",
+        "image": "https://d1mrofrbtdll1g.cloudfront.net/app/categories/3_cat_plus_size_1000.jpg",
+        "gender": ["women", "men"],
+        "order": 13,
+        "qty": 210,
+        "total": {
+          "all": 246,
+          "kids": 0,
+          "men": 131,
+          "women": 210
+        }
+      }
+    ]
+  }
+}

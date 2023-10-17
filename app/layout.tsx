@@ -1,36 +1,20 @@
 import './globals.css'
-import { AtomicState } from 'atomic-state'
+import 'mapbox-gl/dist/mapbox-gl.css'
 import { FetchConfig } from 'http-react'
-import Link from 'next/link'
-import Icon from 'bs-icon'
+import Theme from '(components)/common/Theme'
 
-import ThemeToggle from '(components)/ThemeToggle'
-import ThemeWrap from '(components)/ThemeWrapp'
-
-function MainLayout({ children }) {
+const MainLayout = ({ children }) => {
   return (
     <html>
       <head>
-        <title>Next.js starter</title>
-        <meta name='description' content='A Starter with Next.js' />
+        <title>StepUP </title>
+        <meta name='description' content='StepUP Project Website' />
       </head>
-      <AtomicState>
-        <FetchConfig baseUrl='/api'>
-          <body>
-            <ThemeWrap>
-              <ThemeToggle />
-              {children}
-              <Link
-                href='https://github.com/danybeltran/nextjs-typescript-and-mongodb'
-                target='_blank'
-                className='fixed bottom-2 left-2 btn btn-sm gap-x-2'
-              >
-                <Icon name='github' /> <span>Github</span>
-              </Link>
-            </ThemeWrap>
-          </body>
-        </FetchConfig>
-      </AtomicState>
+      <FetchConfig baseUrl='/api'>
+        <Theme>
+          <body>{children}</body>
+        </Theme>
+      </FetchConfig>
     </html>
   )
 }
