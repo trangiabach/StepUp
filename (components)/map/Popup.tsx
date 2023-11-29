@@ -1,7 +1,15 @@
 import COLORS from '(consts)/colors'
 import { MARKER_COLORS, POPUP_COLORS } from '(consts)/map'
 import { Types } from '(types)'
-import { Box, Chip, IconButton, SxProps, Typography } from '@mui/material'
+import {
+  Box,
+  Button,
+  Chip,
+  IconButton,
+  SxProps,
+  Typography
+} from '@mui/material'
+import ChevronRightIcon from '@mui/icons-material/ChevronRight'
 import Image from 'next/image'
 import {
   Popup as MapboxPopup,
@@ -9,6 +17,7 @@ import {
 } from 'react-map-gl'
 import { AiOutlineClose } from 'react-icons/ai'
 import { capFirstChar } from '(utils)'
+import MetricRow from './MetricRow.tsx'
 
 interface PopupProps extends MapboxPopupProps {
   place: Types.Place
@@ -30,15 +39,15 @@ const cardContentStyles: SxProps = {
 }
 
 const cardHeadingStyles: SxProps = {
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center'
+  display: 'flex',
+  flexDirection: 'row',
+  justifyContent: 'space-between',
+  alignItems: 'center'
 }
 
 const cardHeadingChipStyles: SxProps = {
-    fontSize: 10,
-    color: MARKER_COLORS.background
+  fontSize: 10,
+  color: MARKER_COLORS.background
 }
 
 const detailContentContainerStyles: SxProps = {
@@ -81,6 +90,10 @@ const closeButtonStyles: SxProps = {
   fill: MARKER_COLORS.background
 }
 
+const metricRowsContainerStyles: SxProps = {
+  paddingTop: '8px'
+}
+
 const Popup: React.FC<PopupProps> = ({ place, children, onClose, ...rest }) => {
   return (
     <MapboxPopup onClose={onClose} {...rest}>
@@ -99,17 +112,22 @@ const Popup: React.FC<PopupProps> = ({ place, children, onClose, ...rest }) => {
           />
         </Box>
         <Box sx={cardContentStyles}>
-            <Box sx={cardHeadingStyles}>   
+          <Box sx={cardHeadingStyles}>
             <Typography
-            component='h1'
-            fontSize={16}
-            color='black'
-            fontWeight={500}
-          >
-            {place.title}
-          </Typography>
-          <Chip color='primary' label={capFirstChar(place.type)} size='small' sx={cardHeadingChipStyles} />
-            </Box>
+              component='h1'
+              fontSize={16}
+              color='black'
+              fontWeight={500}
+            >
+              {place.title}
+            </Typography>
+            <Chip
+              color='primary'
+              label={capFirstChar(place.type)}
+              size='small'
+              sx={cardHeadingChipStyles}
+            />
+          </Box>
           <Box height={5} />
           <Box sx={detailContentContainerStyles}>
             <Box sx={detailContentStyles}>
@@ -151,6 +169,28 @@ const Popup: React.FC<PopupProps> = ({ place, children, onClose, ...rest }) => {
                   ))}
               </Box>
             </Box>
+          </Box>
+          <Box sx={metricRowsContainerStyles}>
+            {place.metrics.map((metric, index) => (
+              <MetricRow key={`${index}-${metric.description}`} {...metric} />
+            ))}
+          </Box>
+          <Box sx={{ height: 10 }} />
+          <Box sx={{ width: '100%' }}>
+            <Button
+              variant='outlined'
+              sx={{
+                borderRadius: '20px',
+                width: '100%',
+                textTransform: 'none',
+                textAlign: 'left',
+                justifyContent: 'space-between'
+              }}
+              size='small'
+              endIcon={<ChevronRightIcon fontSize='medium' />}
+            >
+              Learn more
+            </Button>
           </Box>
         </Box>
       </Box>

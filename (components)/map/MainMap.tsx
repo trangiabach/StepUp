@@ -7,6 +7,7 @@ import { Box, SxProps } from '@mui/material'
 import useFetch from 'http-react'
 import { Types } from '(types)'
 import Popup from './Popup'
+import NavBar from './NavBar'
 
 interface MainMapProps {
   children?: ReactNode
@@ -55,36 +56,39 @@ const MainMap: React.FC<MainMapProps> = ({ children }) => {
   }
 
   return (
-    <Box sx={mapContainerStyles}>
-      <Map {...MAP} mapboxAccessToken={mapboxAccessToken}>
-        {places.map(place => {
-          if (place.coordinate?.latitude && place.coordinate?.longitude) {
-            return (
-              <Marker
-                onClick={event => onClickMarker(event, place)}
-                place={place}
-                key={`${place.title}-${place.id}`}
-                longitude={place.coordinate.longitude}
-                latitude={place.coordinate.latitude}
-                anchor='bottom'
-                selectedPlace={selectedPlace}
-              />
-            )
-          }
-        })}
-        {selectedPlace && (
-          <Popup
-            maxWidth='fit-content'
-            anchor='bottom'
-            place={selectedPlace}
-            onClose={onClosePopup}
-            longitude={Number(selectedPlace.coordinate.longitude)}
-            latitude={Number(selectedPlace.coordinate.latitude)}
-          />
-        )}
-        {children}
-      </Map>
-    </Box>
+    <>
+      <NavBar />
+      <Box sx={mapContainerStyles}>
+        <Map {...MAP} mapboxAccessToken={mapboxAccessToken}>
+          {places.map(place => {
+            if (place.coordinate?.latitude && place.coordinate?.longitude) {
+              return (
+                <Marker
+                  onClick={event => onClickMarker(event, place)}
+                  place={place}
+                  key={`${place.title}-${place.id}`}
+                  longitude={place.coordinate.longitude}
+                  latitude={place.coordinate.latitude}
+                  anchor='bottom'
+                  selectedPlace={selectedPlace}
+                />
+              )
+            }
+          })}
+          {selectedPlace && (
+            <Popup
+              maxWidth='fit-content'
+              anchor='bottom'
+              place={selectedPlace}
+              onClose={onClosePopup}
+              longitude={Number(selectedPlace.coordinate.longitude)}
+              latitude={Number(selectedPlace.coordinate.latitude)}
+            />
+          )}
+          {children}
+        </Map>
+      </Box>
+    </>
   )
 }
 

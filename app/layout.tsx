@@ -9,6 +9,10 @@ const MainLayout = ({ children }) => {
       <head>
         <title>StepUP </title>
         <meta name='description' content='StepUP Project Website' />
+        <meta
+          name='viewport'
+          content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'
+        />
       </head>
       <FetchConfig baseUrl='/api'>
         <Theme>

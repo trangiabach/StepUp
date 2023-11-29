@@ -10,11 +10,7 @@ const scrapeBrand = async (link: string, category: string) => {
     const { data } = await axios.get(link)
     const $ = cheerio.load(data)
     const title = $('#brand-hero-summary h1').text()
-    const { data: brandJson } = await axios.get(
-      routes.brandJson(
-        link.replace('https://directory.goodonyou.eco/brand/', '')
-      )
-    )
+    const { data: brandJson } = await axios.get(routes.brandJson(link.replace('https://directory.goodonyou.eco/brand/', '')))
     const imageUrl = brandJson.pageProps?.brand?.imageUrl
 
     const isPlaceExist = await prisma.place.findFirst({
@@ -79,7 +75,7 @@ const scrapeBrand = async (link: string, category: string) => {
     }
 
     if (geocodeData.results.length > 0) {
-      const geometry = geocodeData.results[0].geometry.location
+      const geometry = geocodeData.results[0].geometry.location;
       coordinate.latitude = geometry.lat
       coordinate.longitude = geometry.lng
     } else {
@@ -89,11 +85,12 @@ const scrapeBrand = async (link: string, category: string) => {
           address: location
         }
       })
-      const countryGeometry = countryGeocodeData.results[0].geometry.location
-      coordinate.latitude =
-        countryGeometry.lat + (Math.random() * (100 - 1) + 1) / 10000
-      coordinate.longitude =
-        countryGeometry.lng + (Math.random() * (100 - 1) + 1) / 10000
+
+      if (countryGeocodeData.results.length > 0) {
+        const countryGeometry = countryGeocodeData.results[0].geometry.location;
+        coordinate.latitude = countryGeometry.lat + ((Math.random() * (100 - 1) + 1) / 10000)
+        coordinate.longitude = countryGeometry.lng + ((Math.random() * (100 - 1) + 1) / 10000)
+      }
     }
 
     await prisma.place.create({
