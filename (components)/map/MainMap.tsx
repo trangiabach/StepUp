@@ -77,7 +77,6 @@ const MainMap: React.FC<MainMapProps> = ({ children }) => {
 
   return (
     <>
-      <NavBar />
       <Box sx={placesCountContainerStyles}>
         <FaStoreAlt color={COLORS.primary} size={15} />
         <Box width={8} />
@@ -85,6 +84,7 @@ const MainMap: React.FC<MainMapProps> = ({ children }) => {
       </Box>
       <Box sx={mapContainerStyles}>
         <Map {...MAP} mapboxAccessToken={mapboxAccessToken}>
+          <NavBar />
           {places.map(place => {
             if (place.coordinate?.latitude && place.coordinate?.longitude) {
               return (

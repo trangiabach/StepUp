@@ -1,7 +1,7 @@
 'use client'
 
 import COLORS from '(consts)/colors'
-import { Box, Button, TextField, Typography } from '@mui/material'
+import { Box, Button, Chip, TextField, Typography } from '@mui/material'
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight'
 import { TiLeaf } from 'react-icons/ti'
 import { display } from '@mui/system'
@@ -9,8 +9,12 @@ import CategoryNav from './CategoryNav'
 import FilterAltIcon from '@mui/icons-material/FilterAlt'
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome'
 import Link from 'next/link'
-import Fuse from 'fuse.js'
+import Fuse, { FuseResult } from 'fuse.js'
 import { usePlaces } from '(context)/places'
+import { useState } from 'react'
+import { Types } from '(types)'
+import Image from 'next/image'
+import { useMap } from 'react-map-gl'
 
 const BORDER_CONTAINER_WIDTH = 300
 
@@ -20,6 +24,9 @@ export const TRANSITION = 'all .25s ease'
 
 const NavBar = () => {
   const { places } = usePlaces()
+  const [searchResults, setSearchResults] = useState<FuseResult<Types.Place>[]>(
+    []
+  )
 
   const fuseOptions = {
     // isCaseSensitive: false,
@@ -41,10 +48,11 @@ const NavBar = () => {
   const fuse = new Fuse(places, fuseOptions)
 
   const onSearchChange = event => {
-    console.log(event.target.value)
-
-    console.log(fuse.search(event.target.value))
+    const results = fuse.search(event.target.value).slice(0, 6)
+    setSearchResults(results)
   }
+
+  const { current: map } = useMap()
 
   return (
     <Box
@@ -166,6 +174,80 @@ const NavBar = () => {
         </Box>
       </Box>
       <Box height={30} />
+      {searchResults.length > 0 && (
+        <>
+          <Box display={'flex'} alignItems='center' gap='15px'>
+            <Box
+              fontSize={'16px'}
+              color={COLORS.white}
+              bgcolor={COLORS.dark}
+              paddingX={'8px'}
+              paddingY='4px'
+              borderRadius={'10px'}
+              marginRight='8px'
+            >
+              Search results
+            </Box>
+            {searchResults.map(result => {
+              const place = result.item
+
+              const onPlaceClick = () => {
+                console.log(map)
+                map?.flyTo({
+                  center: [
+                    place.coordinate?.longitude,
+                    place.coordinate?.latitude
+                  ],
+                  zoom: 30,
+                  offset: [0, 200],
+                  duration: 2000
+                })
+              }
+
+              return (
+                <Box
+                  key={place.title}
+                  paddingX='10px'
+                  paddingY='8px'
+                  borderRadius={'12px'}
+                  bgcolor={COLORS.secondary}
+                  minHeight={120}
+                  display='flex'
+                  flexDirection={'column'}
+                  justifyContent='center'
+                  color={COLORS.primary}
+                  sx={{
+                    '&:hover': {
+                      color: COLORS.white,
+                      backgroundColor: COLORS.dark,
+                      cursor: 'pointer'
+                    }
+                  }}
+                  onClick={onPlaceClick}
+                >
+                  <Image
+                    src={place.thumbnailUrl}
+                    alt='search image'
+                    width={80}
+                    height={80}
+                  />
+                  <Typography fontSize={15}>{place.title}</Typography>
+                  <Chip
+                    variant='filled'
+                    color='primary'
+                    label={place.type}
+                    size='small'
+                    sx={{
+                      width: 'fit-content'
+                    }}
+                  />
+                </Box>
+              )
+            })}
+          </Box>
+          <Box height={30} />
+        </>
+      )}
       <Box
         width='100%'
         display={'flex'}
