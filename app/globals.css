@@ -11,7 +11,7 @@
 
 html,
 body {
-  height: 100%;
+  background-color: white;
 }
 
 .mapboxgl-popup-tip,
@@ -25,4 +25,9 @@ body {
   border-radius: 12px !important;
   overflow: hidden !important;
   box-shadow: '0 6px 20px rgba(0,0,0,0.2)';
+}
+
+.navbar-search-input::placeholder {
+  color: #07503e;
+  opacity: 1 !important;
 }

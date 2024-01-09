@@ -2,6 +2,7 @@ import './globals.css'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import { FetchConfig } from 'http-react'
 import Theme from '(components)/common/Theme'
+import 'swiper/css'
 
 const MainLayout = ({ children }) => {
   return (

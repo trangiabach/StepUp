@@ -8,6 +8,10 @@ import useFetch from 'http-react'
 import { Types } from '(types)'
 import Popup from './Popup'
 import NavBar from './NavBar'
+import Loading from '(components)/common/Loading'
+import { usePlaces } from '(context)/places'
+import COLORS from '(consts)/colors'
+import { FaStoreAlt } from 'react-icons/fa'
 
 interface MainMapProps {
   children?: ReactNode
@@ -19,6 +23,24 @@ const mapContainerStyles: SxProps = {
   width: '100vw'
 }
 
+const placesCountContainerStyles: SxProps = {
+  position: 'fixed',
+  top: '230px',
+  zIndex: 10,
+  color: COLORS.primary,
+  backgroundColor: COLORS.white,
+  left: '50%',
+  transform: 'translateX(-50%)',
+  paddingY: '8px',
+  paddingX: '12px',
+  borderRadius: '10px',
+  boxShadow: '0 4px 32px rgba(0,0,0,.2)',
+  fontSize: '14px',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center'
+}
+
 const MainMap: React.FC<MainMapProps> = ({ children }) => {
   const {
     data: mapboxAccessToken,
@@ -26,11 +48,9 @@ const MainMap: React.FC<MainMapProps> = ({ children }) => {
     error: tokenError
   } = useFetch<string>('/secrets/mapbox')
 
-  const {
-    data: places,
-    loading: isPlacesLoading,
-    error: placesError
-  } = useFetch<Types.Place[]>('/places')
+  const { error: placesError } = useFetch<Types.Place[]>('/places')
+
+  const { places, isLoading: isPlacesLoading } = usePlaces()
 
   const [selectedPlace, setSelectedPlace] = useState<Types.Place | undefined>()
 
@@ -52,12 +72,17 @@ const MainMap: React.FC<MainMapProps> = ({ children }) => {
   if (isTokenLoading || tokenError || isPlacesLoading || placesError) {
     if (tokenError) console.log(tokenError)
     if (placesError) console.log(placesError)
-    return <></>
+    return <Loading />
   }
 
   return (
     <>
       <NavBar />
+      <Box sx={placesCountContainerStyles}>
+        <FaStoreAlt color={COLORS.primary} size={15} />
+        <Box width={8} />
+        <Box>{places.length} places found</Box>
+      </Box>
       <Box sx={mapContainerStyles}>
         <Map {...MAP} mapboxAccessToken={mapboxAccessToken}>
           {places.map(place => {
@@ -67,8 +92,8 @@ const MainMap: React.FC<MainMapProps> = ({ children }) => {
                   onClick={event => onClickMarker(event, place)}
                   place={place}
                   key={`${place.title}-${place.id}`}
-                  longitude={place.coordinate.longitude}
-                  latitude={place.coordinate.latitude}
+                  longitude={Number(place.coordinate.longitude)}
+                  latitude={Number(place.coordinate.latitude)}
                   anchor='bottom'
                   selectedPlace={selectedPlace}
                 />

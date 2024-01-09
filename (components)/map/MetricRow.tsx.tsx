@@ -29,7 +29,7 @@ const ratingStyle: SxProps = {
 
 const MIN_PROGRESS = 0
 const MAX_PROGRESS = 5
-const normalize = (value: number) =>
+export const normalize = (value: number) =>
   ((value - MIN_PROGRESS) * 100) / (MAX_PROGRESS - MIN_PROGRESS)
 
 const labelIconMap: Record<string, IconType> = {

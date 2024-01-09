@@ -1,7 +1,13 @@
+'use client'
 import MainMap from '(components)/map/MainMap'
+import { PlacesContextProvider } from '(context)/places'
 
 const MapPage = () => {
-  return <MainMap />
+  return (
+    <PlacesContextProvider>
+      <MainMap />
+    </PlacesContextProvider>
+  )
 }
 
 export default MapPage

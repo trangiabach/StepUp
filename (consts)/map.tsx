@@ -18,8 +18,8 @@ import { PiPantsLight } from 'react-icons/pi'
 
 const MAP: MapProps = {
   initialViewState: {
-    latitude: 18,
-    longitude: 108,
+    latitude: 54,
+    longitude: 15,
     zoom: 3.5,
     bearing: 0,
     pitch: 0
