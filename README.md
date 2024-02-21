@@ -1,3 +1,11 @@
+### StepUP DB
+
+StepUp scrapes the web for ecommerce stores along with relevant sustainability scores and visualize it across a map
+
+
+<img width="1728" alt="stepup-project-graphic" src="https://github.com/trangiabach/StepUp/assets/62537937/6ffb4779-d717-4c3e-9ed7-a4b357665177">
+
+
 ### Next.js with TypeScript, MongoDB, HttpReact, TailwindCSS and DaisyUI
 
 A Next.js app with a serverless backend using MongoDB. A template that can be used to quickly bootstrap new Next.js project. It also has Tailwind configured with Postcss and DaisyUI
